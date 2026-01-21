@@ -1,4 +1,4 @@
-FROM node:hydrogen-buster
+FROM node:node:18.20.8-alpine3.21
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
